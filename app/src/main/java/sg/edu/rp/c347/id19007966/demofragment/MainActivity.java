@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragmentFirst = new FragmentFirst();
         transaction.replace(R.id.frame1, fragmentFirst);
 
+        Fragment fragmentSecond = new FragmentSecond();
+        transaction.replace(R.id.frame2, fragmentSecond);
+
         transaction.commit();
     }
 }

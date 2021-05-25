@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B2EBF2"
+    android:background="#FFCDD2"
     android:orientation="vertical"
-    tools:context=".FragmentFirst">
+    tools:context=".FragmentSecond">
 
     <TextView
-        android:id="@+id/tvFrag1"
+        android:id="@+id/tvFrag2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/lineOfText" />
 
     <Button
-        android:id="@+id/btnAddTextFrag1"
+        android:id="@+id/btnAddTextFrag2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/addTextBtn"
-        app:backgroundTint="#03A9F4" />
+        app:backgroundTint="#E91E63" />
 </LinearLayout>
